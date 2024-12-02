@@ -18,7 +18,7 @@ function displayTemperatureInFahrenheit (c) {
 // (if the last value returned was Fahrenheit, then you’ll want to return Celsius and vice versa). 
 // Start with a default of the last returned format being Celsius.
 
-const lastReturned = 'Celsius';
+let lastReturned = 'Celsius';
 
 function toggleTemperatureDisplay() {
  if (lastReturned === 'Fahrenheit') {
