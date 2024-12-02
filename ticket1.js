@@ -8,3 +8,15 @@ function convertGBPtoEUR (pounds, rate) {
    let euros = pounds * rate;
    return euros;
 }
+
+//Write another function convertGBPtoUSD
+ //that takes in a specified amount in £,
+ // and converts it to $ using a given exchange rate.
+ // It should behave in a very similar way to the previous function.
+
+ function convertGBPtoUSD (pounds){
+   let dollars = pounds * 1.27;
+   return dollars;
+ }
+
+ 
