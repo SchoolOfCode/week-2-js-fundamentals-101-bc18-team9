@@ -6,3 +6,10 @@ function displayTemperatureInCelsius (f) {
 let celcius = (f - 32) * 5/9
 return celcius;
 }
+
+//Implement another function displayTemperatureInFahrenheit that performs the inverse operation.
+
+function displayTemperatureInFahrenheit (c) {
+    let fahrenheit = (c * 9/5 + 32 )
+    return fahrenheit;
+}
